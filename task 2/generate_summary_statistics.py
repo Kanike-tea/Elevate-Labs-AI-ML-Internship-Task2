@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('/Users/kanike/Documents/ai&ml internship/Elevate-Labs-AI-ML-Internship-Task2/task 2/Titanic-Dataset.csv')
+df = pd.read_csv('Titanic-Dataset.csv')
 
 # Summary statistics for numerical columns
 print(df.describe())
