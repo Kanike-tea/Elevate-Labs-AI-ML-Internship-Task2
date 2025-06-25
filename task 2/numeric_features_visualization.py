@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('/Users/kanike/Documents/ai&ml internship/Elevate-Labs-AI-ML-Internship-Task2/task 2/Titanic-Dataset.csv')
+df = pd.read_csv('Titanic-Dataset.csv')
 
 # Histogram
 df.hist(figsize=(10, 8), bins=20)
